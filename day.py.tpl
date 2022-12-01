@@ -14,8 +14,9 @@ def parse_input(input_path):
 
 if __name__ == "__main__":
     from util import *
+    
     parsed_input = parse_input("inputs/##DAY##/real.txt")
-    print(a(parsed_input))
-    print(b(parsed_input))
+    print(f"Day ##DAY## - A - {a(parsed_input)}")
+    print(f"Day ##DAY## - B - {b(parsed_input)}")
 else:
     from .util import *
