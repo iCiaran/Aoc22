@@ -1,10 +1,10 @@
-def a(parsed_input):
-    return str(max(map(sum, parsed_input)))
+def a(elves):
+    return max(map(sum, elves))
 
 
-def b(parsed_input):
-    amount_per_elf = map(sum, parsed_input)
-    return str(sum(sorted(amount_per_elf)[-3:]))
+def b(elves):
+    amount_per_elf = map(sum, elves)
+    return sum(sorted(amount_per_elf)[-3:])
 
 
 def parse_input(input_path):
