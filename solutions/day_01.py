@@ -3,7 +3,7 @@ def a(parsed_input):
 
 
 def b(parsed_input):
-    amount_per_elf = [sum(elf) for elf in parsed_input]
+    amount_per_elf = map(sum, parsed_input)
     return str(sum(sorted(amount_per_elf)[-3:]))
 
 
