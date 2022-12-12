@@ -20,5 +20,8 @@ class Point:
         y = self.y + other.y
         return Point(x, y)
 
+    def manhattan_distance(self, other):
+        return abs(self.x - other.x) + abs(self.y - other.y)
+
     def __hash__(self):
         return 65537 * self.x + self.y
