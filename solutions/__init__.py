@@ -9,6 +9,7 @@ from .day_07 import a as _07_a, b as _07_b, parse_input as _07_parse_input
 from .day_08 import a as _08_a, b as _08_b, parse_input as _08_parse_input
 from .day_09 import a as _09_a, b as _09_b, parse_input as _09_parse_input
 from .day_10 import a as _10_a, b as _10_b, parse_input as _10_parse_input
+from .day_11 import a as _11_a, b as _11_b, parse_input as _11_parse_input
 
 days = {
     1: {"A": _01_a, "B": _01_b, "input": _01_parse_input},
@@ -21,4 +22,5 @@ days = {
     8: {"A": _08_a, "B": _08_b, "input": _08_parse_input},
     9: {"A": _09_a, "B": _09_b, "input": _09_parse_input},
     10: {"A": _10_a, "B": _10_b, "input": _10_parse_input},
+    11: {"A": _11_a, "B": _11_b, "input": _11_parse_input},
 }
