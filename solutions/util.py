@@ -19,6 +19,11 @@ class Point:
         x = self.x + other.x
         y = self.y + other.y
         return Point(x, y)
+    
+    def __sub__(self, other):
+        x = self.x - other.x
+        y = self.y - other.y
+        return Point(x, y)
 
     def manhattan_distance(self, other):
         return abs(self.x - other.x) + abs(self.y - other.y)
